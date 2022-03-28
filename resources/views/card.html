@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .card{
+            width: 100%;
+            height: 450px ; 
+            color: white;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .title {
+            background-color: rgb(75, 72, 72,0.1);
+        }
+        p a {
+            text-decoration: none;
+            color: white;
+        }
+        .link {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            }
+
+        .underline {
+            width: calc(100%);
+            background-image: linear-gradient(transparent calc(100% - 2px), white 2px);
+            background-repeat: no-repeat;
+            background-size: 0% 100%;
+            transition: background-size 1s;
+            }
+
+        .link:hover .underline {
+            background-size: 100% 100%;
+        }
+
+        .card img {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: .7s ease-in-out;
+            transition: .7s ease-in-out;
+            object-fit: cover;
+            width: 100%;
+
+        }
+        .card:hover img {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }    
+        /* start social media css */
+        .box{
+            border: 1px solid red;
+            width: 100%;
+            height: 70px;
+            margin-bottom: 5px;
+        }
+        .facebook{
+            background-color: rgb(66, 103, 178);
+            
+            
+        }
+        .facebook i {
+            background-color: white;
+            color: rgb(66, 103, 178);
+            border-radius: 50%;
+        }
+        .facebook:hover i{
+            color: white;
+            background-color: black;
+            border-radius: 50%;
+
+        }
+        /* end social media css */
+       
+    </style>
+</head>
+<body>
+
+    <div class="d-flex flex-wrap">
+        <div class="col-sm-12 col-md-9">
+            <div class="d-flex flex-wrap">
+                <div class="col-sm-12 col-md-6 p-2">
+                    <div class="card position-relative " >
+    
+                        <img src="images/health/06.pexels-anna-shvets-3786153.jpg" alt="">
+        
+                        <div class="title position-absolute bottom-0  ">
+                            <div class=" mx-2">
+                                <a class="link" href="#" style="color:white;" ><span class="underline" >Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                            </div>
+                
+                            <div class="d-flex text-white">
+                                <div class="author mx-2">
+                                    <p>By <a href="#">Author</a></p>
+                                </div>
+                                <div class="date mx-2">
+                                    <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">March 24,2022</p>
+                                </div>
+                                <div class="comment mx-2">
+                                    <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-12 col-md-6 p-2">
+                    <div class="card position-relative" >
+                    
+                        <img src="images/health/01.Broccoli Cashew Stir-Fry.png" alt="">
+        
+                        <div class="title position-absolute bottom-0">
+                            <div class=" mx-2">
+                               
+                                <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                            </div>
+                            <div class="d-flex text-white">
+                                <div class="author mx-2">
+                                    <p>By <a href="#">Author</a></p>
+                                </div>
+                                <div class="date mx-2">
+                                    <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">March 24,2022</p>
+                                </div>
+                                <div class="comment mx-2">
+                                    <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-12 col-md-6 p-2">
+                    <div class="card position-relative " >
+                        <img src="images/health/02.1c984096-1c61-44cd-9953-ac5c33a7e49e.jpg" alt="">
+                        <div class="title position-absolute bottom-0">
+                            <div class=" mx-2">
+                                <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                            </div>
+                            <div class="d-flex text-white">
+                                <div class="author mx-2">
+                                    <p>By <a href="#">Author</a></p>
+                                </div>
+                                <div class="date mx-2">
+                                    <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">March 24,2022</p>
+                                </div>
+                                <div class="comment mx-2">
+                                    <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6 p-2">
+                    <div class="card position-relative " >
+                        <img src="images/health/03.32a25f2e-075b-42ee-9dac-67914156e8c5.jpg" alt="">
+                        <div class="title position-absolute bottom-0">
+                            <div class=" mx-2">
+                               
+                                <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                            </div>
+                            <div class="d-flex text-white">
+                                <div class="author mx-2">
+                                    <p>By <a href="#">Author</a></p>
+                                </div>
+                                <div class="date mx-2">
+                                    <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">March 24,2022</p>
+                                </div>
+                                <div class="comment mx-2">
+                                    <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6 p-2">
+                    <div class="card position-relative " >
+                        <img src="images/health/04.Perfect day.jpg" alt="">
+                        <div class="title position-absolute bottom-0">
+                            <div class=" mx-2 ">
+                                <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                            </div>
+                            <div class="d-flex text-white">
+                                <div class="author mx-2">
+                                    <p>By <a href="#">Author</a></p>
+                                </div>
+                                <div class="date mx-2">
+                                    <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">March 24,2022</p>
+                                </div>
+                                <div class="comment mx-2">
+                                    <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6 p-2">
+                    <div class="card position-relative " >
+                        <img src="images/health/05.pexels-alisha-mishra-1346347.jpg" alt="">
+                        <div class="title position-absolute bottom-0">
+                            <div class=" mx-2">
+                                <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                            </div>
+                            <div class="d-flex text-white">
+                                <div class="author mx-2">
+                                    <p>By <a href="#">Author</a></p>
+                                </div>
+                                <div class="date">
+                                    <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">March 24,2022</p>
+                                </div>
+                                <div class="comment mx-2">
+                                    <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+               <div class="col-sm-12 col-md-6 p-2">
+                <div class="card position-relative" >
+                    <img src="images/health/07.pexels-daria-shevtsova-1458684.jpg" alt="">
+                    <div class="title position-absolute bottom-0">
+                        <div class="mx-2">
+                            <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                        </div>
+                        <div class="d-flex text-white">
+                            <div class="author mx-2">
+                                <p>By <a href="#">Author</a></p>
+                            </div>
+                            <div class="date mx-2">
+                                <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                <p style="display: inline-block;">March 24,2022</p>
+                            </div>
+                            <div class="comment mx-2">
+                                <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                <p style="display: inline-block;">Comments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+    
+               <div class="col-sm-12 col-md-6 p-2">
+                <div class="card position-relative " >
+                    <img src="images/health/08.pexels-matthias-zomer-339620.jpg" alt="">
+                    <div class="title position-absolute bottom-0">
+                        <div class="mx-2">
+                            <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                        </div>
+                        <div class="d-flex text-white">
+                            <div class="author mx-2">
+                                <p>By <a href="#">Author</a></p>
+                            </div>
+                            <div class="date mx-2">
+                                <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                <p style="display: inline-block;">March 24,2022</p>
+                            </div>
+                            <div class="comment mx-2">
+                                <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                <p style="display: inline-block;">Comments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+    
+                <div class="col-sm-12 col-md-6 p-2">
+                    <div class="card position-relative " >
+                        <img src="images/health/09.pexels-photomix-company-1001897.jpg" alt="">
+                        <div class="title position-absolute bottom-0">
+                            <div class="mx-2">
+                               
+                                <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                            </div>
+                            <div class="d-flex text-white">
+                                <div class="author mx-2">
+                                    <p>By <a href="#">Author</a></p>
+                                </div>
+                                <div class="date mx-2">
+                                    <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">March 24,2022</p>
+                                </div>
+                                <div class="comment mx-2">
+                                    <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6 p-2">
+                    <div class="card position-relative " >
+                        <img src="images/health/10.pexels-pixabay-208512.jpg" alt="">
+                        <div class="title position-absolute bottom-0">
+                            <div class=" mx-2">
+                                <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
+                            </div>
+                            <div class="d-flex text-white">
+                                <div class="author mx-2">
+                                    <p>By <a href="#">Author</a></p>
+                                </div>
+                                <div class="date mx-2">
+                                    <i class="fa-regular fa-calendar-days d-felx" style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">March 24,2022</p>
+                                </div>
+                                <div class="comment mx-2">
+                                    <i class="fa-regular fa-comments " style="display: inline-block;"></i>
+                                    <p style="display: inline-block;">Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End of content --> 
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+            <div class="social_media">
+                <h4 class="p-3">STAY CONNECTED</h4>
+
+                <div class="facebook d-felx flex-wrap box ">
+                    <i class="fa-brands fa-facebook fs-3"></i>
+                    <p><span>0</span> Fans</p>
+                </div>
+
+                <div class="twitter box">
+                    
+                </div>
+                <div class="instgram box">
+                    
+                </div>
+                <div class="youtube box">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <p class="text-center">Load More...</p> -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
