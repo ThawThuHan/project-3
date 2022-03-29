@@ -24,9 +24,10 @@
     
     <!-- main js -->
     <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/up.js"></script>
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
 

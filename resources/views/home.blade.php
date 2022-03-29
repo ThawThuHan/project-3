@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Gymnast - Gym Website Template')
+@section('title', 'Home')
 
 @section('css')
 <link rel="stylesheet" href="/css/index.css">
@@ -8,8 +8,9 @@
 
 @section('content')
 
-<div class="container ">
-    <div class="row">
+<div class="container-fluid px-3 mb-4">
+    <!-- update news -->
+    <div class="row mb-5">
         <div class="col-6">
             <h3 class="mb-3">Update News</h3>
         </div>
@@ -121,57 +122,93 @@
             </div>
         </div>
     </div>
-</div>
-<!-- title heading -->
-<div class="container">
-    <div class="row column">
-        <div class="leftcolumn col-xs-12 col-lg-7 col-sm-12 col-md-7 mb-3">
-            <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Dec 7, 2017</h5>
-                <div class="fakeimg"><iframe width="100%" height="250px" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                    </iframe>
-                </div>
-                <p>Lorem ipsum dolor sit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi enim quis commodi voluptates. Aspernatur minus blanditiis voluptatibus possimus culpa.</p>
+    
+    <div class="row g-5">
+        <div class="col-md-6">
+            <div class="mb-5">
+                <h1>TITLE HEADING</h1>
+                <h5>Title Description, Dec 7, 2017</h5>
+                <iframe width="100%" height="250px" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat suscipit ratione sed error! Aliquid iure quod veritatis deserunt eius amet excepturi? Saepe laborum ad quis itaque reprehenderit expedita blanditiis?</p>
             </div>
-            <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg" style="height:200px;"><img width="100%" height="200px" src="images/girl.gif" alt="" srcset=""></div>
+            <div class="">
+                <h1>TITLE HEADING</h1>
+                <h5>Title Description, Sep 2, 2017</h5>
+                <img width="100%" height="200px" src="images/girl.gif" alt="" srcset="">
                 <p>Ukarine Update News</p>
-                <p>President Biden says NATO leaders are ‘more united’ a month into the war between Russia and Ukraine. There's been no let up in the fighting, and relentless bombardment by Putin’s Russian forces.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat suscipit ratione sed error! Aliquid iure quod veritatis deserunt eius amet excepturi? Saepe laborum ad quis itaque reprehenderit expedita blanditiis?</p>
             </div>
         </div>
-        <div class="rightcolumn col-xs-12 col-lg-5 col-sm-12 col-md-5 mb-3">
-            <div class="card">
-                <h2>About Me</h2>
-                <div class="fakeimg" style="height:100px;">Image</div>
-                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        
+        <div class="col-md-6">
+            <!-- breaking & trending -->
+            <div class="d-flex justify-content-between mb-2" style="background-color: rgb(185, 184, 184);">
+                <a href="#" class="btn btn-danger py-2" style="width: 30%;">Breaking News</a>
+                <span class="py-2" style="width: 67%;">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
             </div>
-            <div class="card scroll">
-                <h3>Popular Post</h3>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
+            <div class="d-flex justify-content-between mb-2" style="background-color: rgb(185, 184, 184);">
+                <a href="#" class="btn btn-dark py-2" style="width: 30%;">Trending</a>
+                <span class="py-2" style="width: 67%;">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
             </div>
-            <div class="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
+
+            <!-- popular post -->
+            <h1 class="mt-5">Popular Post</h1>
+            <div class="d-flex justify-content-between mb-2">
+                <img src="images/moon.jpeg" alt="" style="width: 30%; height: 100px;">
+                <div style="width: 66%;">
+                    <h3 class="text-danger">Finance</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+                <img src="images/moon2.jpeg" alt="" style="width: 30%; height: 100px;">
+                <div style="width: 66%;">
+                    <h3 class="text-danger">Finance</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+                <img src="images/moon3.jpeg" alt="" style="width: 30%; height: 100px;">
+                <div style="width: 66%;">
+                    <h3 class="text-danger">Finance</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+                <img src="images/sea.jpeg" alt="" style="width: 30%; height: 100px;">
+                <div style="width: 66%;">
+                    <h3 class="text-danger">Finance</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?</p>
+                </div>
+            </div>
+
+            <!-- follower -->
+            <h2 class="mt-5">Stay Connected</h2>
+            <div class="d-flex justify-content-between mt-3">
+                <div>
+                    <img src="images/facebook.png" alt="" style="width: 50px; height: 50px;">
+                    <span class="ms-4">6879 Fans</span>
+                </div>
+                <h4 class="text-right mt-2">LIKE</h4>
+            </div>
+            <div class="d-flex justify-content-between mt-3">
+                <div>
+                    <img src="images/twitter.png" alt="" style="width: 50px; height: 50px;">
+                    <span class="ms-4">568 Followers</span>
+                </div>
+                <h4 class="text-right mt-2">FOLLOW</h4>
+            </div>
+            <div class="d-flex justify-content-between mt-3">
+                <div>
+                    <img src="images/youtube.png" alt="" style="width: 50px; height: 50px;">
+                    <span class="ms-4">5039 subscribers</span>
+                </div>
+                <h4 class="text-right mt-2">SUBCRIBE</h4>
             </div>
         </div>
     </div>
-
 </div>
 
-@endsection
-
-@section('script')
-<!-- <script src="js/adSlider.js"></script> -->
 @endsection
