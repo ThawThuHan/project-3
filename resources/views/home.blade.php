@@ -1,214 +1,227 @@
-@extends('layouts/master')
+@extends('layouts.master')
 
 @section('title', 'Home')
 
-@section('css')
-<link rel="stylesheet" href="/css/index.css">
-@endsection
+@section('style')
+    <style>
 
-@section('content')
+        .breaking-news-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 450px;
+            flex-direction: column;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
 
-<div class="container-fluid px-3 mb-4">
-    <!-- update news -->
-    <div class="row mb-5">
-        <div class="col-6">
-            <h3 class="mb-3">Update News</h3>
-        </div>
-        <div class="col-6 text-right">
-            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                <i class="fa fa-arrow-left"></i>
-            </a>
-            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                <i class="fa fa-arrow-right"></i>
-            </a>
-        </div>
-        <div class="col-12">
-            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/Slider 1.jpg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/Slider 2.jpg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/Slider 3.jpg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/moon.jpeg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/beach.jpeg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/mountain.jpeg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/sea.jpeg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/moon2.jpeg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/moon3.jpeg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="row g-5">
-        <div class="col-md-6">
-            <div class="mb-5">
-                <h1>TITLE HEADING</h1>
-                <h5>Title Description, Dec 7, 2017</h5>
-                <iframe width="100%" height="250px" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat suscipit ratione sed error! Aliquid iure quod veritatis deserunt eius amet excepturi? Saepe laborum ad quis itaque reprehenderit expedita blanditiis?</p>
-            </div>
-            <div class="">
-                <h1>TITLE HEADING</h1>
-                <h5>Title Description, Sep 2, 2017</h5>
-                <img width="100%" height="200px" src="images/girl.gif" alt="" srcset="">
-                <p>Ukarine Update News</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat suscipit ratione sed error! Aliquid iure quod veritatis deserunt eius amet excepturi? Saepe laborum ad quis itaque reprehenderit expedita blanditiis?</p>
-            </div>
-        </div>
+        .main-news {
+            width: 50%;
+            box-sizing: border-box;
+        }
+
+        .main-news:nth-child(1){
+            height: 100%;
+            padding-right: 10px; 
+        }
+
+        .main-news:nth-child(2) {
+            height: 50%;
+            padding-bottom: 10px;
+        }
+
+        .main-news:nth-child(3) {
+            height: 50%;
+        }
         
-        <div class="col-md-6">
-            <!-- breaking & trending -->
-            <div class="d-flex justify-content-between mb-2" style="background-color: rgb(185, 184, 184);">
-                <a href="#" class="btn btn-danger py-2" style="width: 30%;">Breaking News</a>
-                <span class="py-2" style="width: 67%;">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-            </div>
-            <div class="d-flex justify-content-between mb-2" style="background-color: rgb(185, 184, 184);">
-                <a href="#" class="btn btn-dark py-2" style="width: 30%;">Trending</a>
-                <span class="py-2" style="width: 67%;">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-            </div>
+        .main-news-card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
 
-            <!-- popular post -->
-            <h1 class="mt-5">Popular Post</h1>
-            <div class="d-flex justify-content-between mb-2">
-                <img src="images/moon.jpeg" alt="" style="width: 30%; height: 100px;">
-                <div style="width: 66%;">
-                    <h3 class="text-danger">Finance</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?</p>
-                </div>
-            </div>
-            <div class="d-flex justify-content-between mb-2">
-                <img src="images/moon2.jpeg" alt="" style="width: 30%; height: 100px;">
-                <div style="width: 66%;">
-                    <h3 class="text-danger">Finance</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?</p>
-                </div>
-            </div>
-            <div class="d-flex justify-content-between mb-2">
-                <img src="images/moon3.jpeg" alt="" style="width: 30%; height: 100px;">
-                <div style="width: 66%;">
-                    <h3 class="text-danger">Finance</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?</p>
-                </div>
-            </div>
-            <div class="d-flex justify-content-between mb-2">
-                <img src="images/sea.jpeg" alt="" style="width: 30%; height: 100px;">
-                <div style="width: 66%;">
-                    <h3 class="text-danger">Finance</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolores?</p>
-                </div>
-            </div>
+        .main-news-card img {
+            width: 100%;
+            height: 100%;
+            filter: brightness(70%);
+            object-fit: cover;
+        }
 
-            <!-- follower -->
-            <h2 class="mt-5">Stay Connected</h2>
-            <div class="d-flex justify-content-between mt-3">
-                <div>
-                    <img src="images/facebook.png" alt="" style="width: 50px; height: 50px;">
-                    <span class="ms-4">6879 Fans</span>
+        .main-news-content {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            margin: 20px
+        }
+
+        .latest-news {
+            width: 50%;
+            height: 400px;
+        }
+
+        .latest-news-card {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        .latest-news-card img {
+            width: 100%;
+            height: 50%;
+            border: 4px solid #cccccc;
+        }
+
+        .popular-news-card {
+            background-color: #cccccc;
+            display: flex;
+            width: 100%;
+            height: 100px;
+            margin: 10px 0px;
+        }
+
+        .popular-news-card img {
+            width: 40%;
+            height: 100%;
+            padding-right: 10px;
+        }
+    </style>
+@endsection
+    
+@section('content')
+   <div class="container">
+       <div class="bg-black text-white my-2 p-2">
+           <h3>Breaking News</h3>
+       </div>
+       
+       {{-- Breaking News --}}
+       <div class="breaking-news-container">
+            <div class="main-news">
+                <div class="main-news-card">
+                    <img src="/images/slider/Slider 1.jpg" alt="">
+                    <div class="main-news-content">
+                        <span class="badge bg-secondary">Entertainment</span>
+                        <h4 class="text-white">
+                            Lee Min-Ho နှင့် Gong Hyo-jin တို့ ကိုရီးယားဒရာမာ ဇာတ်လမ်းတွဲတစ်ခုတွင် တွဲဖက်သရုပ်ဆောင်ထား
+                        </h4>
+                        <h6 class="text-white">Aug-07-2021</h6>
+                    </div>
                 </div>
-                <h4 class="text-right mt-2">LIKE</h4>
             </div>
-            <div class="d-flex justify-content-between mt-3">
-                <div>
-                    <img src="images/twitter.png" alt="" style="width: 50px; height: 50px;">
-                    <span class="ms-4">568 Followers</span>
+            <div class="main-news">
+                <div class="main-news-card">
+                    <img src="/images/slider/Slider 2.jpg" alt="">
+                    <div class="main-news-content">
+                        <span class="badge bg-secondary">Entertainment</span>
+                        <h4 class="text-white">
+                            Lee Min-Ho နှင့် Gong Hyo-jin တို့ ကိုရီးယားဒရာမာ ဇာတ်လမ်းတွဲတစ်ခုတွင် တွဲဖက်သရုပ်ဆောင်ထား
+                        </h4>
+                        <h6 class="text-white">Aug-07-2021</h6>
+                    </div>
                 </div>
-                <h4 class="text-right mt-2">FOLLOW</h4>
             </div>
-            <div class="d-flex justify-content-between mt-3">
-                <div>
-                    <img src="images/youtube.png" alt="" style="width: 50px; height: 50px;">
-                    <span class="ms-4">5039 subscribers</span>
+            <div class="main-news">
+                <div class="main-news-card">
+                    <img src="/images/slider/Slider 3.jpg" alt="">
+                    <div class="main-news-content">
+                        <span class="badge bg-secondary">Entertainment</span>
+                        <h4 class="text-white">
+                            Lee Min-Ho နှင့် Gong Hyo-jin တို့ ကိုရီးယားဒရာမာ ဇာတ်လမ်းတွဲတစ်ခုတွင် တွဲဖက်သရုပ်ဆောင်ထား
+                        </h4>
+                        <h6 class="text-white">Aug-07-2021</h6>
+                    </div>
                 </div>
-                <h4 class="text-right mt-2">SUBCRIBE</h4>
+            </div>
+       </div>
+
+       <div class="row">
+            <div class="col-9">
+                <h3 class="border-3 border-bottom border-dark p-2">Latest News</h3>
+                <div class="d-flex flex-wrap">
+                    <div class="latest-news">
+                        <div class="latest-news-card">
+                            <img src="https://news-eleven.com/sites/news-eleven.com/files/styles/news_category_overview_medium_image_/public/news-images/reuters_27.jpg?itok=_zPk-Lq1" alt="">
+                            <div>
+                                <span class="badge bg-warning">Entertainment</span>
+                                <h5>အော်စကာစင်မြင့်ထက်မှ သူ့လုပ်ရပ်မှားကြောင်း အစီအစဉ်တင်ဆက်သူ ခရစ္စရော့ခ်ကို ဝယ်လ်စမစ်...</h5>
+                                <div class="d-flex justify-content-between">
+                                    <span class="fw-bold">View Count</span>
+                                    <span class="fw-bold">Aug-07-2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-news">
+                        <div class="latest-news-card">
+                            <img src="https://news-eleven.com/sites/news-eleven.com/files/styles/news_category_large_image/public/news-images/aung_la_n_seng.jpg?itok=n_gbeW2H" alt="">
+                            <div>
+                                <span class="badge bg-warning">Sport</span>
+                                <h5>အောင်လအန်ဆန်၏ လိုက်ဟဲဗီးဝိတ်တန်း ကမ္ဘာ့ချန်ပီယံကာကွယ်ပွဲပါဝင်သည့် ONE TNT IV တွင် ထည့်သွင်းကျင်းပမည့်တွဲဆိုင်းများ ထုတ်ပြန်ကြေညာ</h5>
+                                <div class="d-flex justify-content-between">
+                                    <span class="fw-bold">View Count</span>
+                                    <span class="fw-bold">Aug-07-2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-news">
+                        <div class="latest-news-card">
+                            <img src="https://news-eleven.com/sites/news-eleven.com/files/styles/news_category_large_image/public/news-images/10_hl_ap_81.jpg?itok=Bh7vPanK" alt="">
+                            <div>
+                                <span class="badge bg-warning">Healthy</span>
+                                <h5>တရုတ်နိုင်ငံ ရှန်ဟိုင်းမြို့တွင် သီတင်းနှစ်ပတ်အတွင်း ပထမဆုံးအကြိမ်အဖြစ် နေ့အလိုက် ကိုရိုနာဗိုင်းရပ်စ် ကူးစက်သူ ကျဆင်းခဲ့</h5>
+                                <div class="d-flex justify-content-between">
+                                    <span class="fw-bold">View Count</span>
+                                    <span class="fw-bold">Aug-07-2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <h3 class="border-3 border-bottom border-dark p-2">Popular News</h3>
+                <div class="popular-news-card">
+                    <img src="https://news-eleven.com/sites/news-eleven.com/files/styles/most_read_img/public/news-images/315.0.1224421482-0136-kk3g-1081x611gazzetta-web_1081x611.jpg?itok=vIcpYf-Z" alt="">
+                    <span>
+                        မီလန်မြို့ကို စွန့်ခွာ၍ ကွင်းသစ်စီမံကိန်း ဆောင်ရွက်ရန် အေစီမီလန်နှင့် အင်တာမီလန်
+                    </span>
+                </div>
+                <div class="popular-news-card">
+                    <img src="https://news-eleven.com/sites/news-eleven.com/files/styles/most_read_img/public/news-images/315.0.1224421482-0136-kk3g-1081x611gazzetta-web_1081x611.jpg?itok=vIcpYf-Z" alt="">
+                    <span>
+                        မီလန်မြို့ကို စွန့်ခွာ၍ ကွင်းသစ်စီမံကိန်း ဆောင်ရွက်ရန် အေစီမီလန်နှင့် အင်တာမီလန်
+                    </span>
+                </div>
+                <div class="popular-news-card">
+                    <img src="https://news-eleven.com/sites/news-eleven.com/files/styles/most_read_img/public/news-images/315.0.1224421482-0136-kk3g-1081x611gazzetta-web_1081x611.jpg?itok=vIcpYf-Z" alt="">
+                    <span>
+                        မီလန်မြို့ကို စွန့်ခွာ၍ ကွင်းသစ်စီမံကိန်း ဆောင်ရွက်ရန် အေစီမီလန်နှင့် အင်တာမီလန်
+                    </span>
+                </div>
+                <div class="popular-news-card">
+                    <img src="https://news-eleven.com/sites/news-eleven.com/files/styles/most_read_img/public/news-images/315.0.1224421482-0136-kk3g-1081x611gazzetta-web_1081x611.jpg?itok=vIcpYf-Z" alt="">
+                    <span style="font-size: 0.9rem">
+                        မီလန်မြို့ကို စွန့်ခွာ၍ ကွင်းသစ်စီမံကိန်း ဆောင်ရွက်ရန် အေစီမီလန်နှင့် အင်တာမီလန်
+                    </span>
+                </div>
+            </div>
+       </div>
+   </div>
+
+   <div class="container-fluid bg-black">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h1 class="logo-title">GoodVide</h1>
+                    <div class="footer-link">
+                        <a href="">About Us</a>
+                        <a href="">Contact Us</a>
+                        <a href="">Subscribe</a>
+                    </div>
+                </div>
+                
             </div>
         </div>
-    </div>
-</div>
-
+   </div>
 @endsection

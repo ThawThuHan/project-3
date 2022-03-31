@@ -1,0 +1,27 @@
+.related-box{
+    width: 25%; 
+    height: 300px; 
+    border-radius: 20px;
+}
+
+.related-img{
+    height: 150px; 
+    width: 100%; 
+    object-fit: cover;
+}
+
+.read-img{
+    height: 90px; 
+    width: 100%; 
+    object-fit: cover;
+}
+
+.bg-grey{
+    background-color: rgb(233, 232, 232);
+}
+
+.post-img{
+    height: 400px; 
+    width: 100%; 
+    object-fit: cover;
+}
