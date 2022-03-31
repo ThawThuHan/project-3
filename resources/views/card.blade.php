@@ -92,9 +92,9 @@
         <div class="col-sm-12 col-md-9">
             <div class="d-flex flex-wrap">
                 <div class="col-sm-12 col-md-6 p-2">
-                    <div class="card position-relative " >
+                    <div class="card position-relative" >
     
-                        <img src="images/health/06.pexels-anna-shvets-3786153.jpg" alt="">
+                        <img src="/images/health/06.pexels-anna-shvets-3786153.jpg" alt="">
         
                         <div class="title position-absolute bottom-0  ">
                             <div class=" mx-2">
@@ -121,7 +121,7 @@
                 <div class="col-sm-12 col-md-6 p-2">
                     <div class="card position-relative" >
                     
-                        <img src="images/health/01.Broccoli Cashew Stir-Fry.png" alt="">
+                        <img src="/images/health/01.Broccoli Cashew Stir-Fry.png" alt="">
         
                         <div class="title position-absolute bottom-0">
                             <div class=" mx-2">
@@ -147,7 +147,7 @@
                 
                 <div class="col-sm-12 col-md-6 p-2">
                     <div class="card position-relative " >
-                        <img src="images/health/02.1c984096-1c61-44cd-9953-ac5c33a7e49e.jpg" alt="">
+                        <img src="/images/health/02.1c984096-1c61-44cd-9953-ac5c33a7e49e.jpg" alt="">
                         <div class="title position-absolute bottom-0">
                             <div class=" mx-2">
                                 <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
@@ -171,7 +171,7 @@
     
                 <div class="col-sm-12 col-md-6 p-2">
                     <div class="card position-relative " >
-                        <img src="images/health/03.32a25f2e-075b-42ee-9dac-67914156e8c5.jpg" alt="">
+                        <img src="/images/health/03.32a25f2e-075b-42ee-9dac-67914156e8c5.jpg" alt="">
                         <div class="title position-absolute bottom-0">
                             <div class=" mx-2">
                                
@@ -196,7 +196,7 @@
     
                 <div class="col-sm-12 col-md-6 p-2">
                     <div class="card position-relative " >
-                        <img src="images/health/04.Perfect day.jpg" alt="">
+                        <img src="/images/health/04.Perfect day.jpg" alt="">
                         <div class="title position-absolute bottom-0">
                             <div class=" mx-2 ">
                                 <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
@@ -220,7 +220,7 @@
     
                 <div class="col-sm-12 col-md-6 p-2">
                     <div class="card position-relative " >
-                        <img src="images/health/05.pexels-alisha-mishra-1346347.jpg" alt="">
+                        <img src="/images/health/05.pexels-alisha-mishra-1346347.jpg" alt="">
                         <div class="title position-absolute bottom-0">
                             <div class=" mx-2">
                                 <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
@@ -244,7 +244,7 @@
     
                <div class="col-sm-12 col-md-6 p-2">
                 <div class="card position-relative" >
-                    <img src="images/health/07.pexels-daria-shevtsova-1458684.jpg" alt="">
+                    <img src="/images/health/07.pexels-daria-shevtsova-1458684.jpg" alt="">
                     <div class="title position-absolute bottom-0">
                         <div class="mx-2">
                             <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
@@ -268,7 +268,7 @@
     
                <div class="col-sm-12 col-md-6 p-2">
                 <div class="card position-relative " >
-                    <img src="images/health/08.pexels-matthias-zomer-339620.jpg" alt="">
+                    <img src="/images/health/08.pexels-matthias-zomer-339620.jpg" alt="">
                     <div class="title position-absolute bottom-0">
                         <div class="mx-2">
                             <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
@@ -292,7 +292,7 @@
     
                 <div class="col-sm-12 col-md-6 p-2">
                     <div class="card position-relative " >
-                        <img src="images/health/09.pexels-photomix-company-1001897.jpg" alt="">
+                        <img src="/images/health/09.pexels-photomix-company-1001897.jpg" alt="">
                         <div class="title position-absolute bottom-0">
                             <div class="mx-2">
                                
@@ -317,7 +317,7 @@
     
                 <div class="col-sm-12 col-md-6 p-2">
                     <div class="card position-relative " >
-                        <img src="images/health/10.pexels-pixabay-208512.jpg" alt="">
+                        <img src="/images/health/10.pexels-pixabay-208512.jpg" alt="">
                         <div class="title position-absolute bottom-0">
                             <div class=" mx-2">
                                 <a class="link" href="#" style="color:white;" ><span class="underline">Adorable, Remorse less Killing Machine Is World’s Deadliest Cat</span></a>
