@@ -35,7 +35,7 @@
         </div>
         <div class="col-md-4 col-12">
             <!-- most read -->
-            <h3>MOST READ</h3>
+            <h3 class="mt-5 mt-md-0">MOST READ</h3>
             <hr>
             @foreach ($mostRead as $news)
             <a href="/news/{{$news->id}}" class="link-style">
@@ -63,7 +63,7 @@
             @endforeach
         </div>
     </div>
-    <h3>RELATED ARTICLES</h3>
+    <h3 class="mt-5 mt-md-0">RELATED ARTICLES</h3>
     <hr>
     <div class="row">
         @foreach ($related as $news)

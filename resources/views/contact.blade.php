@@ -35,8 +35,8 @@
                 <button class="btn btn-outline-primary w-100 rounded-pill">SUBMIT MESSAGE HERE</button>
             </form>
         </div>
-        <div class="col-md-6">
-            <img src="images/contact.jpg" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+        <div class="col-md-6 col-12">
+            <img class="d-none d-md-block" src="images/contact.jpg" alt="" style="width: 100%; height: 500px; object-fit: cover;">
         </div>
     </div>
 </div>

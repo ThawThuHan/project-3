@@ -6,7 +6,7 @@
 
 <div class="footer container-fluid mt-5 py-3 px-sm-3 px-md-5 text-white bg-black">
     <div class="row pt-5 mx-5">
-        <div class="col-lg-3 col-md-6 mb-5">
+        <div class="col-lg-3 col-md-6 col-12 mb-5">
             <h4 class="text-white mb-4">Get In Touch</h4>
             <p><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</p>
             <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
@@ -18,7 +18,7 @@
                 <a class="btn btn-outline-light rounded-circle text-center me-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
+        <div class="col-lg-3 col-md-6 col-6 mb-5">
             <h4 class="text-white mb-4">Quick Links</h4>
             <div class="d-flex flex-column justify-content-start">
                 <a class="text-white mb-2" href="/home"><i class="fa fa-angle-right me-2"></i>Home</a>
@@ -28,7 +28,7 @@
                 <a class="text-white" href="/contact"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
+        <div class="col-lg-3 col-md-6 col-6 mb-5">
             <h4 class="text-white mb-4">Popular Links</h4>
             <div class="d-flex flex-column justify-content-start">
                 <a class="text-white mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Health</a>
@@ -38,7 +38,7 @@
                 <a class="text-white" href="#"><i class="fa fa-angle-right me-2"></i>Others</a>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
+        <div class="col-lg-3 col-md-6 col-12 mb-5">
             <h4 class="text-white mb-4">Opening Hours</h4>
             <h5 class="text-white">Monday - Friday</h5>
             <p>24 Hours</p>
