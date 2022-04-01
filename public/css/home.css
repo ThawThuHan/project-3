@@ -46,3 +46,19 @@
     bottom: 0;
     margin: 20px
 }
+
+@media (max-width: 427px) {
+    .breaking-news-container {
+        height: auto;
+        flex-direction: row;
+    }
+
+    .main-news {
+        width: 100%;
+    }
+
+    .main-news:nth-child(1) {
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+}
