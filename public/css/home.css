@@ -46,35 +46,3 @@
     bottom: 0;
     margin: 20px
 }
-
-.latest-news {
-    width: 50%;
-    height: 400px;
-}
-
-.latest-news-card {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-}
-
-.latest-news-card img {
-    width: 100%;
-    height: 50%;
-    border: 4px solid #cccccc;
-}
-
-.popular-news-card {
-    background-color: #cccccc;
-    display: flex;
-    width: 100%;
-    height: 100px;
-    margin: 10px 0px;
-}
-
-.popular-news-card img {
-    width: 40%;
-    height: 100%;
-    padding-right: 10px;
-}

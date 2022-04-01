@@ -13,7 +13,7 @@
        </div>
        
        {{-- Breaking News --}}
-       <div class="breaking-news-container">
+       <div class="breaking-news-container" id="breaking-new">
             <div class="main-news">
                 <div class="main-news-card">
                     <img src="/images/slider/Slider 1.jpg" alt="">
@@ -134,20 +134,5 @@
                 @endforeach
             </div>
        </div>
-   </div>
-
-   <div class="container-fluid bg-black">
-        <div class="container py-4">
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <h1 class="logo-title">GoodVide</h1>
-                    <div class="footer-link">
-                        <a href="">About Us</a>
-                        <a href="">Contact Us</a>
-                        <a href="">Subscribe</a>
-                    </div>
-                </div>
-            </div>
-        </div>
    </div>
 @endsection

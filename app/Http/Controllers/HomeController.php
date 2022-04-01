@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\News;
 
 class HomeController extends Controller
@@ -30,6 +31,34 @@ class HomeController extends Controller
             'breakingNews' => $breakingNews,
             'latestNews' => $latestNews,
             'popularNews' => $popularNews,
+        ]);
+    }
+
+    public function showNews($id)
+    {
+        $news = News::find($id);
+        $category = Category::find($news->category_id);
+        $mostRead = $category->news()->orderBy('view_count', 'desc')->take(5)->get();
+        $mostRecent = $category->news()->latest()->take(5)->get();
+        $related = $category->news->filter(function ($element) use ($news) {
+            return $news->id !== $element->id;
+        })->take(4);
+        return view('post', [
+            "news" => $news,
+            "mostRead" => $mostRead,
+            "mostRecent" => $mostRecent,
+            "related" => $related,
+        ]);
+    }
+
+    public function getNewsByCategory(Category $category)
+    {
+        $latestNews = $category->news()->latest()->paginate(6);
+        $popularNews = $category->news()->orderBy('view_count', 'desc')->get();
+        return view('category_view', [
+            "category" => $category,
+            "latestNews" => $latestNews,
+            "popularNews" => $popularNews,
         ]);
     }
 }

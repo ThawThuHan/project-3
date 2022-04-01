@@ -22,8 +22,8 @@
             <div class="d-flex flex-column justify-content-start">
                 <a class="text-white mb-2" href="/home"><i class="fa fa-angle-right mr-2"></i>Home</a>
                 <a class="text-white mb-2" href="/about"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Categories</a>
-                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Update News</a>
+                {{-- <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Categories</a>
+                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Update News</a> --}}
                 <a class="text-white" href="/contact"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
             </div>
         </div>
@@ -42,7 +42,7 @@
             <h5 class="text-white">Monday - Friday</h5>
             <p>24 Hours</p>
 
-            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Breaking News</a>
+            <a class="text-white mb-2" href="/home#breaking-new"><i class="fa fa-angle-right mr-2"></i>Breaking News</a>
         </div>
     </div>
     <div class="container border-top border-white pt-3">

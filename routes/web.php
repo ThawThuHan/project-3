@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NewsController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -19,9 +21,11 @@ Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/category/{category:name}', [HomeController::class, 'getNewsByCategory']);
+
 Route::get('/about', fn () => view('about'));
 
-Route::get('/post', fn () => view('post'));
+Route::get('/news/{id}', [HomeController::class, 'showNews']);
 
 Route::get('/contact', fn () => view('contact'));
 

@@ -46,19 +46,3 @@
     padding: 20px;
     margin-top: 20px;
 } */
-
-.nav-item a:hover {
-    border-bottom: 2px solid #000;
-    font-size: large;
-    text-shadow: 0px 0px 2px #000000;
-}
-
-#logo {
-    width: 120px;
-    object-fit: cover;
-    transition: transform 0.75s linear;
-}
-
-#logo:hover {
-    transform: rotateY(270deg);
-}
