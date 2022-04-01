@@ -3,7 +3,7 @@
   <i class="fas fa-chevron-up rounded-circle float-end fs-2 border px-2 py-1 btn btn-outline-info" id="up"></i>
 </div>
 
-<div class="footer container-fluid mt-5 py-3 px-sm-3 px-md-5 text-white">
+<div class="footer container-fluid mt-5 py-3 px-sm-3 px-md-5 text-white bg-black">
     <div class="row pt-5 mx-5">
         <div class="col-lg-3 col-md-6 mb-5">
             <h4 class="text-white mb-4">Get In Touch</h4>
