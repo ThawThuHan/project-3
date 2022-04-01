@@ -98,13 +98,13 @@
                     @foreach ($latestNews as $news)
                     <div class="latest-news">
                         <div class="latest-news-card">
-                            <img src="{{ $news->image }}" alt="">
+                            <a href="/news/{{$news->id}}"><img src="{{ $news->image }}" alt=""></a>
                             <div>
                                 <div class="d-flex justify-content-between my-1">
                                     <span class="badge bg-warning">{{ $news->category->name  }}</span>
                                     <span>by <b>{{ $news->user->name }}</b></span>
                                 </div>
-                                <h5>{{$news->content}}</h5>
+                                <h5><a href="/news/{{$news->id}}" class="link-style">{{$news->title}}</a></h5>
                                 <div class="d-flex justify-content-between">
                                     <span class="text-muted"><i class="fa-solid fa-eye"></i> {{ $news->view_count }}</span>
                                     <span class="text-muted">{{ $news->updated_at->diffForHumans() }}</span>
@@ -125,12 +125,14 @@
                     </span>
                 </div>
                 @foreach ($popularNews as $news)
-                <div class="popular-news-card">
-                    <img src="{{ $news->image }}" alt="">
-                    <span>
-                        {{ mb_strimwidth($news->content, 0, 50, '....') }}
-                    </span>
-                </div>
+                <a href="/news/{{$news->id}}" class="link-style">
+                    <div class="popular-news-card">
+                        <img src="{{ $news->image }}" alt="">
+                        <span>
+                            {{ mb_strimwidth($news->content, 0, 50, '....') }}
+                        </span>
+                    </div>
+                </a>
                 @endforeach
             </div>
        </div>

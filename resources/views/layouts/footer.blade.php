@@ -1,6 +1,7 @@
 <!-- up button -->
 <div class="me-2 mb-2 fixed-bottom">
-  <i class="fas fa-chevron-up rounded-circle float-end fs-2 border px-2 py-1 btn btn-outline-info" id="up"></i>
+  {{-- <i class="fas fa-chevron-up rounded-circle float-end fs-2 border px-2 py-1 btn btn-outline-info" id="up"></i> --}}
+    <i class="fa-solid fa-circle-arrow-up rounded-circle bg-black float-end fs-2 px-2 py-2 text-white" id="up"></i>
 </div>
 
 <div class="footer container-fluid mt-5 py-3 px-sm-3 px-md-5 text-white bg-black">

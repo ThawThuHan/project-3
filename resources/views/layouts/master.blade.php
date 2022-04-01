@@ -16,6 +16,7 @@
     @include('layouts.footer')
     <script src="/js/bootstrap.bundle.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/up.js"></script>
     @yield('script')
 </body>
 </html>

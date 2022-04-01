@@ -8,7 +8,9 @@
                     <div class="d-flex flex-wrap">
                         <div class="latest-news">
                             <div class="latest-news-card">
-                                <img src="https://news-eleven.com/sites/news-eleven.com/files/styles/news_category_overview_medium_image_/public/news-images/reuters_27.jpg?itok=_zPk-Lq1" alt="">
+                                <a href="/">
+                                    <img src="https://news-eleven.com/sites/news-eleven.com/files/styles/news_category_overview_medium_image_/public/news-images/reuters_27.jpg?itok=_zPk-Lq1" alt="">
+                                </a>
                                 <div>
                                     <span class="badge bg-warning">Entertainment</span>
                                     <h5><a href="/">အော်စကာစင်မြင့်ထက်မှ သူ့လုပ်ရပ်မှားကြောင်း အစီအစဉ်တင်ဆက်သူ ခရစ္စရော့ခ်ကို ဝယ်လ်စမစ်...</a></h5>
@@ -48,7 +50,7 @@
                         @foreach ($latestNews as $news)
                         <div class="latest-news">
                             <div class="latest-news-card">
-                                <img src="{{ $news->image }}" alt="">
+                                <a href="/news/{{$news->id}}"><img src="{{ $news->image }}" alt=""></a>
                                 <div>
                                     <div class="d-flex justify-content-between my-1">
                                         <span class="badge bg-warning">{{ $news->category->name  }}</span>

@@ -38,24 +38,28 @@
             <h3>MOST READ</h3>
             <hr>
             @foreach ($mostRead as $news)
-            <div class="row mb-2">
-                <div class="col-md-6 col-12">
-                    <img src="{{ $news->image }}" class="read-img" alt="">
+            <a href="/news/{{$news->id}}" class="link-style">
+                <div class="row mb-2">
+                    <div class="col-md-6 col-12">
+                        <img src="{{ $news->image }}" class="read-img" alt="">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <p>{{ $news->title }}</p>
+                    </div>
                 </div>
-                <div class="col-md-6 col-12">
-                    <p>{{ $news->title }}</p>
-                </div>
-            </div>
+            </a>
             @endforeach
             
             <!-- most recent -->
             <h3 class="mt-5">MOST RECENT</h3>
             <hr>
             @foreach ($mostRecent as $news)
-            <div class="row mb-2 bg-grey">
-                <div>{{ mb_strimwidth($news->content, 0, 100, '...', 'utf-8') }}</div>
-                <div class="text-danger">{{ $news->created_at->diffForHumans() }}</div>
-            </div>
+            <a href="/news/{{$news->id}}" class="link-style">
+                <div class="row mb-2 bg-grey">
+                    <div>{{ mb_strimwidth($news->content, 0, 100, '...', 'utf-8') }}</div>
+                    <div class="text-danger">{{ $news->created_at->diffForHumans() }}</div>
+                </div>
+            </a>
             @endforeach
         </div>
     </div>
@@ -64,7 +68,7 @@
     <div class="row">
         @foreach ($related as $news)
         <div class="related-box">
-            <img src="{{ $news->image }}" class="related-img" alt="...">
+            <a href="/news/{{$news->id}}"><img src="{{ $news->image }}" class="related-img" alt="..."></a>
             <div class="card-body">
                 <h5 class="text-danger"><span>{{ $news->category->name }}</span></h5>
                 <p class="">{{ $news->title }}</p>

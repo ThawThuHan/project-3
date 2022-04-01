@@ -18,7 +18,7 @@ class NewsFactory extends Factory
     {
         return [
             "title" => $this->faker->sentence(),
-            "content" => $this->faker->paragraph(),
+            "content" => $this->faker->paragraph(40),
             "view_count" => rand(100, 500),
             "category_id" => rand(1, 6),
             "user_id" => rand(1, 5),

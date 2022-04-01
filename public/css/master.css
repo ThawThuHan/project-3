@@ -50,3 +50,8 @@
     height: 100%;
     padding-right: 10px;
 }
+
+.link-style {
+    text-decoration: none;
+    color: black;
+}
