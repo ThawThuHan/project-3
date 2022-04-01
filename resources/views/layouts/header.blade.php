@@ -4,7 +4,7 @@
                <img src="/images/logo.png" alt="" class="w-25">
                <div>
                     <button class="btn btn-dark btn-sm text-white">Subscribe</button>
-                    <button class="btn btn-outline-dark btn-sm">Login</button>
+                    <a class="btn btn-outline-dark btn-sm" href="{{ route('login') }}">Login</a>
                </div>
            </div>
        </div>
